@@ -7,8 +7,8 @@ const NavBar = () => {
   return (
     <nav className="nav-wrapper grey darken-3">
       <div className="container">
-        <Link to="/" className="brand-logo">
-          MarioPlan
+        <Link to="/" className="brand-logo" style={{ textAlign: "left" }}>
+          FireBase
         </Link>
 
         <SignedInLinks />
